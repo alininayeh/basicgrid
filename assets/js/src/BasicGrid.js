@@ -277,7 +277,7 @@ BasicGrid.prototype._addRow = function(data, i) {
     var html = '', i;
 
     if (data === false) {
-        html =  '<tr><td style="text-align: center" colspan="' + self.htmlElement.find('th').length + '">Nu există rezultate</td></tr>';
+        html =  '<tr><td style="text-align: center" colspan="' + self.htmlElement.find('th').length + '">No results found</td></tr>';
     } else {
         html +=  '<tr>';
         
