@@ -1,7 +1,7 @@
 BasicGrid
 =========
 
-A very basic searchable and sortable table made from JSON data. Include jquery and BasicGrid.min.js in your page to make it work.
+A very basic searchable and sortable table made from JSON data. Include jQuery and BasicGrid.min.js in your page to make it work.
 
 Synthax:
 
