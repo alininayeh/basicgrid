@@ -1,0 +1,4 @@
+# Ignore Grunt resources #
+##########################
+node_modules/*
+.sass-cache/

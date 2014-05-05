@@ -1,0 +1,65 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Grid */
+.BasicGrid { color:#666; font-family:Arial, sans-serif; font-size:14px; padding:20px; }
+.BasicGrid table { border:0; border-collapse:collapse; border-spacing:0; width:100%; }
+.BasicGrid table th, .BasicGrid table td { padding:10px; }
+.BasicGrid table th { background: #666; padding-bottom:8px; text-align:left; }
+.BasicGrid table th strong { color:#fff; font-size:15px; font-weight:normal; line-height:20px; text-transform:uppercase; vertical-align:middle; }
+.BasicGrid table th .BasicGrid-sort-by { cursor:pointer; }
+.BasicGrid table th .BasicGrid-sort-by:hover { text-decoration:underline; }
+.BasicGrid table th .BasicGrid-search { display:inline-block; margin-left:10px; position:relative; vertical-align:middle; }
+.BasicGrid table th .BasicGrid-search input { border:1px solid #fff; color:#aaa; font-size:12px; margin:0; padding:3px 5px; }
+.BasicGrid table th .BasicGrid-search input:focus { border-color:#333; outline:0; }
+.BasicGrid table th .BasicGrid-search input::-ms-clear { display: none; }
+.BasicGrid table th .BasicGrid-search .BasicGrid-search-button { background:url("../img/search.png") no-repeat 0 0; display:block; height:20px; width:20px; position:absolute; right:5px; top:2px; }
+.BasicGrid table th .BasicGrid-search .BasicGrid-search-button.BasicGrid-clear-button { background-position:0 -20px; cursor:pointer; }
+.BasicGrid table td { border-top: 1px solid #ddd; }
+.BasicGrid .BasicGrid-pagination { border-top:1px solid #bbb; color:#2b52a3; font-size:15px; padding-top:20px; text-align:center; }
+.BasicGrid .BasicGrid-pagination a, .BasicGrid .BasicGrid-pagination .item { border:1px solid #bbb; color:#666; display:inline-block; margin:5px 5px; padding:5px 3px; text-decoration:none; width:30px; }
+.BasicGrid .BasicGrid-pagination a.selected, .BasicGrid .BasicGrid-pagination .item.selected, .BasicGrid .BasicGrid-pagination a:hover, .BasicGrid .BasicGrid-pagination .item:hover { background:#666; color:#fff; }
+.BasicGrid .BasicGrid-pagination a.disabled { opacity:0.2; filter:alpha(opacity=20); }
+ .BasicGrid .BasicGrid-pagination a.disabled:hover { background:none; color:#666; cursor:default; }
