@@ -30,8 +30,3 @@ Browser support & dependencies
 
 Requires jQuery. Works on IE8+, Chrome, Firefox, Opera, Safari.
 
-Demo
----
-
-You can see an example here: http://dev.alin-inayeh.ro/basicgrid/example.html
-
